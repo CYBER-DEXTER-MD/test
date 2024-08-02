@@ -3,16 +3,16 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split("9477073-717")
+global.owner = process.env.OWNER_NUMBER.split("9477073717")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'sam@secktor.live'
-global.github = 'https://github.com/KING-AMDA-MD/DARK-EWING-MD'
+global.github = 'https://github.com/CYBER-DEXTER-MD/test/edit'
 global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '2347039570336,923466319114'
-global.devs = '2347039570336';
-global.website = 'https://github.com/KING-AMDA-MD/DARK-EWING-MD' //wa.me/+91000000000000
+global.sudo = process.env.SUDO || '94770730717'
+global.devs = '94770730717';
+global.website = 'https://github.com/CYBER-DEXTER-MD/test/edit' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'ᴅᴀʀᴋ ᴇᴡɪɴɢ 𝐁𝐨𝐭' : process.env.BOT_NAME,
